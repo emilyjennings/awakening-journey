@@ -4,7 +4,7 @@ body {
   font-size: 20px
 }
 
-.Banner {
+.Banner, .About {
   text-align: center;
   color: #413c47
 }
@@ -53,7 +53,7 @@ h1 {
 
 .footer-link {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   text-align: center;
   font-family: Yellowtail;
   font-size: 25px
@@ -61,4 +61,8 @@ h1 {
 
 .footer-link a {
   color: #cc7ab6
+}
+
+.About {
+  margin-bottom: 150px
 }

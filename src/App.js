@@ -1,16 +1,23 @@
+import { BrowserRouter, Route } from "react-router-dom";
+
 import './style/App.css';
 import Banner from './components/Banner.js'
 import Body from './components/Body.js'
 import Footer from './components/Footer.js'
+import About from './components/About.js'
 
 
 function App() {
   return (
-    <div className="App">
-        < Banner />
-        < Body />
-        < Footer />
-    </div>
+      <BrowserRouter >
+            < Banner />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={Body} />
+            < Footer />
+
+
+
+      </ BrowserRouter >
   );
 }
 

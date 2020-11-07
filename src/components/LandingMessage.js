@@ -39,18 +39,19 @@ export default class LandingMessage extends Component {
      		// callback for reset
      		resetCallback: function() {}
      });
+     return typed
   }
 
 
-  componentDidMount(){
-    {this.typedSentenceAnimation()}
-  }
+  // componentDidMount(){
+  //   {this.typedSentenceAnimation()}
+  // }
 
 
   render() {
     return (
       <div className="LandingMessage">
-        <div className="intro">Join our community for </div>
+        <div className="intro">This website is under construction, but please do join us on slack.</div>
         <div className="typed-text"></div>
         <div className="slack-link"><a href="https://join.slack.com/t/waking-upworkspace/shared_invite/zt-izfp06jo-j0jDznPIrbUseT_RCyXn~Q">Join Our Slack Community</a></div>
       </div>
