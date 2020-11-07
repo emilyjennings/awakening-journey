@@ -1,8 +1,14 @@
+import '../style/Body.css';
+import LandingMessage from './LandingMessage.js'
 
 function Body() {
   return (
 
-      <p>Spiritual community connections</p>
+    <div className="Body">
+      <div className="landing-message">Isn't it beautiful that life has brought you here?</div>
+
+      < LandingMessage />
+    </div>
 
   );
 }
