@@ -11,14 +11,13 @@ import Contact from './components/Contact.js'
 function App() {
   return (
       <BrowserRouter >
-            < Banner />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/" component={Body} />
-            <Route exact path="/contact" component={Contact} />
-            < Footer />
-
-
-
+        <div className="App">
+          < Banner />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={Body} />
+          <Route exact path="/contact" component={Contact} />
+          < Footer />
+        </div>
       </ BrowserRouter >
   );
 }
