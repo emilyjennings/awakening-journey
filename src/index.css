@@ -4,7 +4,7 @@ body {
   font-size: 20px
 }
 
-.Banner, .About {
+.Banner, .About, .contactpage {
   text-align: center;
   color: #413c47
 }
@@ -55,7 +55,7 @@ h1 {
   display: inline-block;
   width: 20%;
   text-align: center;
-  font-family: Yellowtail;
+  font-family: 'Yellowtail';
   font-size: 25px
 }
 
@@ -65,4 +65,74 @@ h1 {
 
 .About {
   margin-bottom: 150px
+}
+
+.input-row-1 {
+  margin-top: 20px
+}
+
+button#submit {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #35CDD1;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  border: 1px solid #35CDD1;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button#submit:hover {
+  background-color: #cc7ab6
+}
+
+.contactcontainer {
+  text-align: center;
+  width: 50%;
+  z-index: 1;
+  margin: 30px auto 100px auto;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Bitter', serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #35CDD1;
+}
+
+.formcaption {
+  display: inline-block;
+  margin: 10px auto;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+label {
+  font-size: 0.8em;
+}
+
+input {
+  background: #eaf9f9;
+  border: none;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto 10px auto;
+  background: #eaf9f9;
+  background-image:
+    radial-gradient(#C4EFDA 4%, transparent 0),
+    radial-gradient(#C4EFDA 4%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  color: #35CDD1;
+  font-size: 1.1em
+}
+
+.input-row-2 {
+  margin-top: 15px
 }

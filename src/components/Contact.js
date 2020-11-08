@@ -35,7 +35,7 @@ export default class Contact extends Component {
     return (
       <div className="contactpage">
         <div className="contactcontainer">
-          <div className="formcaption">I'll be in touch soon.</div>
+          <div className="formcaption">Contact Us</div>
           <form name="contact" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
             <div className="input-row-1">
