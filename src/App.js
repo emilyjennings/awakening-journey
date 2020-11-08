@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './style/App.css';
 import Banner from './components/Banner.js'
@@ -10,15 +10,15 @@ import Contact from './components/Contact.js'
 
 function App() {
   return (
-      <BrowserRouter >
+      <Router >
         <div className="App">
-          < Banner />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/" component={Body} />
-          <Route exact path="/contact" component={Contact} />
-          < Footer />
+            < Banner />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={Body} />
+            <Route exact path="/contact" component={Contact} />
+            < Footer />
         </div>
-      </ BrowserRouter >
+      </ Router >
   );
 }
 
