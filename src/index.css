@@ -68,7 +68,8 @@ h1 {
 }
 
 .input-row-1 {
-  margin-top: 20px
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
 }
 
 button#submit {
@@ -94,8 +95,8 @@ button#submit:hover {
   margin: 30px auto 100px auto;
   border-radius: 20px;
   padding: 20px;
-  font-family: 'Bitter', serif;
-  font-size: 1.4em;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.1em;
   font-weight: bold;
   color: #35CDD1;
 }
@@ -108,7 +109,8 @@ button#submit:hover {
 }
 
 label {
-  font-size: 0.8em;
+  font-size: 1em;
+  color: #35CDD1
 }
 
 input {
@@ -124,11 +126,6 @@ textarea {
   border-radius: 10px;
   margin: 10px auto 10px auto;
   background: #eaf9f9;
-  background-image:
-    radial-gradient(#C4EFDA 4%, transparent 0),
-    radial-gradient(#C4EFDA 4%, transparent 0);
-  background-size: 30px 30px;
-  background-position: 0 0, 15px 15px;
   color: #35CDD1;
   font-size: 1.1em
 }
