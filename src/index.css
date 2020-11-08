@@ -1,30 +1,28 @@
 body {
-  font-family: Roboto Slab;
-  background-color: #f2ebfc;
-  font-size: 20px
+  font-family: 'PT Serif', serif;
+  background-color: #f2ebfc
 }
 
 .Banner, .About, .contactpage {
   text-align: center;
-  color: #413c47
+  color: #2D0D40
 }
 
 h1 {
-  font-family: Yellowtail;
-  font-size: 40px
+  font-family: 'PT Serif', serif;
+  font-size: 3em
 }
 
 .LandingMessage {
   margin: auto;
-  width: 50%;
   text-align: center;
 }
 
 .landing-message {
-  margin: auto;
+  margin: 30px auto;
   width: 70%;
   text-align: center;
-  margin-bottom: 30px;
+  font-size: 1.5em
 }
 
 .typed-text {
@@ -32,35 +30,47 @@ h1 {
 }
 
 .slack-link {
-  margin-top: 30px;
+  margin: 40px auto;
+  font-size: 2em;
+  font-family: Yellowtail, cursive
 }
 
 .slack-link a {
-  color: #cc7ab6
+  color: #cc7ab6;
+  text-decoration: underline;
 }
 
 .stars-image img {
   width: 30%;
+  margin-top: 20px
 }
 
 .Footer {
   position: fixed;
   bottom: 0;
-  margin: auto;
-  margin-bottom: 30px;
-  width: 100%
+  margin: auto 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f2ebfc
 }
 
 .footer-link {
   display: inline-block;
+  padding: 0;
+  margin: auto;
   width: 20%;
   text-align: center;
-  font-family: 'Yellowtail';
-  font-size: 25px
+  font-family: 'Open Sans Condensed', serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .footer-link a {
-  color: #cc7ab6
+  color: #cc7ab6;
+}
+
+a:hover {
+  color: #35CDD1
 }
 
 .About {
@@ -69,12 +79,12 @@ h1 {
 
 .input-row-1 {
   margin-top: 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'PT Serif', serif;
 }
 
 button#submit {
   font-size: 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'PT Serif', serif;
   color: #35CDD1;
   border: none;
   border-radius: 10px;
@@ -95,7 +105,7 @@ button#submit:hover {
   margin: 30px auto 100px auto;
   border-radius: 20px;
   padding: 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'PT Serif', serif;
   font-size: 1.1em;
   font-weight: bold;
   color: #35CDD1;
@@ -132,4 +142,39 @@ textarea {
 
 .input-row-2 {
   margin-top: 15px
+}
+
+.temple img {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+.About p {
+  text-align: left;
+  width: 50%;
+  margin: 22px auto;
+}
+
+.About h3 {
+  font-size: 25px
+}
+
+h3 {
+  font-family: Yellowtail, cursive;
+  font-size: 2.5em
+}
+
+@media only screen and (max-width: 800px) {
+  .temple img {
+    width: 50%;
+  }
+
+  .stars-image img {
+    width: 60%;
+  }
+
+  .footer-link {
+    font-size: 20px;
+  }
 }
