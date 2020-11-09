@@ -32,7 +32,7 @@ h1 {
 .slack-link {
   margin: 40px auto;
   font-size: 2em;
-  font-family: Yellowtail, cursive
+  font-family: 'Yellowtail', cursive
 }
 
 .slack-link a {
@@ -176,5 +176,9 @@ h3 {
 
   .footer-link {
     font-size: 20px;
+  }
+
+  .slack-link {
+    margin-bottom: 100px
   }
 }
