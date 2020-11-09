@@ -126,6 +126,8 @@ label {
 input {
   background: #eaf9f9;
   border: none;
+  border: 1px solid #35CDD1;
+  border-radius: 5px;
 }
 
 textarea {
@@ -138,6 +140,8 @@ textarea {
   background: #eaf9f9;
   color: #35CDD1;
   font-size: 1.1em
+  border: 1px solid #35CDD1;
+  border-radius: 5px;
 }
 
 .input-row-2 {
