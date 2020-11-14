@@ -139,7 +139,7 @@ textarea {
   margin: 10px auto 10px auto;
   background: #eaf9f9;
   color: #35CDD1;
-  font-size: 1.1em
+  font-size: 1.1em;
   border: 1px solid #35CDD1;
   border-radius: 5px;
 }
@@ -183,6 +183,6 @@ h3 {
   }
 
   .slack-link {
-    margin-bottom: 100px
+    margin-bottom: 90px
   }
 }
