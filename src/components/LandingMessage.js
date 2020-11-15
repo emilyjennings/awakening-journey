@@ -51,7 +51,7 @@ export default class LandingMessage extends Component {
   render() {
     return (
       <div className="LandingMessage">
-        <div className="landing-message">This website is under construction, but please do join us on slack.</div>
+        <div className="landing-message">This resource for your awakening is growing and expanding, just like we are. Have fun browsing, check back later for updates, and join us.</div>
         <div className="typed-text"></div>
         <div className="slack-link"><a href="https://join.slack.com/t/waking-upworkspace/shared_invite/zt-izfp06jo-j0jDznPIrbUseT_RCyXn~Q">Join Our Slack Community</a></div>
       </div>

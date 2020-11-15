@@ -8,7 +8,6 @@ function Banner() {
       </div>
       <h1>Awakening Journey</h1>
       <h3>You are not alone.</h3>
-
     </div>
 
   );

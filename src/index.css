@@ -1,15 +1,35 @@
+:root {
+  --main-color: #faeae8;
+  --secondary-color: #2D0D40;
+  --alt-color: #1e373d;
+  --bright-color: #35CDD1;
+  --pink-color: #f7a69c;
+  --yellow-color: #facfac;
+  --grey-color: #43656e;
+  --main-font: 'PT Serif', serif;
+  --sub-font: 'Yellowtail', cursive;
+  --alt-font: 'Open Sans Condensed', serif
+}
+
+.App {
+  margin: 0;
+  padding: 0
+}
+
 body {
-  font-family: 'PT Serif', serif;
-  background-color: #f2ebfc
+  font-family: var(--main-font);
+  background-color: var(--main-color);
+  margin: 0;
+  padding: 0
 }
 
 .Banner, .About, .contactpage {
   text-align: center;
-  color: #2D0D40
+  color: var(--secondary-color)
 }
 
 h1 {
-  font-family: 'PT Serif', serif;
+  font-family: var(--main-font);
   font-size: 3em
 }
 
@@ -32,45 +52,64 @@ h1 {
 .slack-link {
   margin: 40px auto;
   font-size: 2em;
-  font-family: 'Yellowtail', cursive
+  font-family: var(--sub-font)
 }
 
 .slack-link a {
-  color: #cc7ab6;
+  color: var(--grey-color);
   text-decoration: underline;
 }
 
 .stars-image img {
   width: 30%;
-  margin-top: 20px
+  margin-top: 50px
 }
 
-.Footer {
+.strip {
   position: fixed;
-  bottom: 0;
-  margin: auto 0;
+  top: 0;
   width: 100%;
-  padding: 20px 0;
-  background-color: #f2ebfc
+  margin: auto 0;
+  padding: 3px;
+  background-color: var(--main-color)
 }
 
-.footer-link {
+.nav-links {
+  width: auto;
+}
+
+.social-links {
+  float: right;
+  top: 0;
+  vertical-align: middle;
+  margin-right: 10px
+}
+
+.social-links a {
+  padding: 5px;
+  text-align: center;
+  color: var(--secondary-color);
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.nav-link a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  float: left;
   display: inline-block;
   padding: 0;
-  margin: auto;
-  width: 20%;
+  margin: 5px 10px;
   text-align: center;
-  font-family: 'Open Sans Condensed', serif;
-  font-size: 25px;
+  font-family: var(--alt-font);
+  font-size: 20px;
   font-weight: bold;
-}
-
-.footer-link a {
-  color: #cc7ab6;
+  width: auto
 }
 
 a:hover {
-  color: #35CDD1
+  color: var(--pink-color)
 }
 
 .About {
@@ -79,23 +118,24 @@ a:hover {
 
 .input-row-1 {
   margin-top: 20px;
-  font-family: 'PT Serif', serif;
+  font-family: var(--main-color)
 }
 
 button#submit {
   font-size: 20px;
-  font-family: 'PT Serif', serif;
-  color: #35CDD1;
+  font-family: var(--main-font);
+  color: var(--secondary-color);
   border: none;
   border-radius: 10px;
   margin: 10px auto;
-  border: 1px solid #35CDD1;
+  border: var(--secondary-color);
   border-radius: 5px;
   padding: 5px;
+  background-color: var(--pink-color)
 }
 
 button#submit:hover {
-  background-color: #cc7ab6
+  background-color: var(--bright-color)
 }
 
 .contactcontainer {
@@ -105,10 +145,10 @@ button#submit:hover {
   margin: 30px auto 100px auto;
   border-radius: 20px;
   padding: 20px;
-  font-family: 'PT Serif', serif;
+  font-family: var(--main-font);
   font-size: 1.1em;
   font-weight: bold;
-  color: #35CDD1;
+  color: var(--secondary-color);
 }
 
 .formcaption {
@@ -120,13 +160,12 @@ button#submit:hover {
 
 label {
   font-size: 1em;
-  color: #35CDD1
+  color: var(--secondary-color)
 }
 
 input {
-  background: #eaf9f9;
+  background: var(--pink-color);
   border: none;
-  border: 1px solid #35CDD1;
   border-radius: 5px;
 }
 
@@ -137,10 +176,9 @@ textarea {
   border: none;
   border-radius: 10px;
   margin: 10px auto 10px auto;
-  background: #eaf9f9;
-  color: #35CDD1;
+  background: var(--pink-color);
+  color: var(--secondary-color);
   font-size: 1.1em;
-  border: 1px solid #35CDD1;
   border-radius: 5px;
 }
 
@@ -165,8 +203,12 @@ textarea {
 }
 
 h3 {
-  font-family: Yellowtail, cursive;
+  font-family: var(--sub-font);
   font-size: 2.5em
+}
+
+.meditation p {
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -176,13 +218,28 @@ h3 {
 
   .stars-image img {
     width: 60%;
+    margin-top: 60px
   }
 
-  .footer-link {
-    font-size: 20px;
+  .strip {
+    margin: 0;
+    padding: 0
+  }
+
+  .nav-link a {
+    font-size: 15px;
+    width: 20%;
+    margin: 0;
+    padding: 0
   }
 
   .slack-link {
     margin-bottom: 90px
   }
+
+  .social-links {
+    display: none
+  }
+
+
 }

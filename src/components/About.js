@@ -1,4 +1,5 @@
 import temple from '../images/temple.jpg'
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -6,10 +7,9 @@ function About() {
       <div className="temple">
         <img src={temple} alt="" />
       </div>
-      <h3>Created from Love</h3>
-      <p>This website was created with a hope for the new era of love and awakening, where more of us start to understand our purpose and existence.</p>
-      <p>Created by Emily Jennings on November 7, 2020, this is still being built, but the hope is that it will be a community-driven initiative. It will be a free resource for information, inspiration and connection.</p>
-
+      <h4>Created from Love</h4>
+      <p>This website was created in November 2020 with a hope for the new era of love and awakening, where more of us start to understand our purpose and existence. There is community here in our slack channel, and there is a growing number of resources in the pages for <a href="https://awakening-journey.medium.com">Blog</a> and <Link to="/meditation">Meditation Help</Link>.</p>
+      <p>If you are feeling a call to look closer at reality and identify your deeper self as well as your purpose, you are not alone. This is a movement. You are among friends here.</p>
     </div>
 
   );
