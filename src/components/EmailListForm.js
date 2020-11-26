@@ -37,7 +37,7 @@ export default class EmailListForm extends Component {
         <div className="contactcontainer">
           <div className="formcaption">Join my email list! Newsletters coming soon.</div>
           <form name="email-list" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="email-list" />
             <div className="input-row-1">
                 <label>
                   Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
