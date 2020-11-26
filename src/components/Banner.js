@@ -5,9 +5,8 @@ function Banner() {
     <div className="Banner">
       <div className="stars-image">
         <img src={stars} alt="" />
+        <h1>Awakening Journey</h1>
       </div>
-      <h1>Awakening Journey</h1>
-      <h3>You are not alone.</h3>
     </div>
 
   );

@@ -30,39 +30,88 @@ body {
 
 h1 {
   font-family: var(--main-font);
-  font-size: 3em
+  font-size: 3em;
 }
 
-.LandingMessage {
-  margin: auto;
+h3 {
+  font-family: var(--sub-font);
+  font-size: 2.5em
+}
+
+.Body h3 {
   text-align: center;
+}
+
+.Body {
+  width: 100%
 }
 
 .landing-message {
-  margin: 30px auto;
-  width: 70%;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.lotus-img {
+  position: relative;
   text-align: center;
-  font-size: 1.5em
+  width: 100%;
+  display: inline-block;
+  float: left;
 }
 
-.typed-text {
-  font-size: 30px
+.lotus-img img {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 90%;
+  margin: 30px 0
 }
 
-.slack-link {
-  margin: 40px auto;
+.landing-message p {
+  text-align: left;
+  font-size: 1.5em;
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.landing-message h3 {
+  text-align: center
+}
+
+.link-box {
+  width: 100%;
+  display: block;
+  text-align: center;
   font-size: 2em;
   font-family: var(--sub-font)
 }
 
-.slack-link a {
+.link-box a {
   color: var(--grey-color);
   text-decoration: underline;
 }
 
+.stars-image {
+  position: relative;
+  text-align: center;
+}
+
+.stars-image h1 {
+  index: -1;
+  position: absolute;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-color);
+}
+
 .stars-image img {
-  width: 30%;
-  margin-top: 50px
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 20% 0%;
 }
 
 .strip {
@@ -189,7 +238,7 @@ textarea {
 .temple img {
   width: 30%;
   display: block;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .About p {
@@ -202,13 +251,12 @@ textarea {
   font-size: 25px
 }
 
-h3 {
-  font-family: var(--sub-font);
-  font-size: 2.5em
-}
-
 .meditation p {
   text-align: center;
+}
+
+.email-list-form button#submit {
+  margin: 40px
 }
 
 @media only screen and (max-width: 800px) {
@@ -217,8 +265,7 @@ h3 {
   }
 
   .stars-image img {
-    width: 60%;
-    margin-top: 60px
+    height: 300px
   }
 
   .strip {
@@ -233,12 +280,17 @@ h3 {
     padding: 0
   }
 
-  .slack-link {
+  .link-box {
     margin-bottom: 90px
   }
 
   .social-links {
     display: none
+  }
+
+  .landing-message {
+    display: block;
+    width: 100%
   }
 
 

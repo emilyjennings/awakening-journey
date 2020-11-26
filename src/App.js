@@ -8,6 +8,7 @@ import About from './components/About.js'
 import Contact from './components/Contact.js'
 import Meditation from './components/Meditation.js'
 
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faMedium, faSlack } from '@fortawesome/free-brands-svg-icons'
 // import { } from '@fortawesome/free-solid-svg-icons'
