@@ -5,7 +5,7 @@ function Banner() {
     <div className="Banner">
       <div className="stars-image">
         <img src={stars} alt="" />
-        <h1>Awakening Journey</h1>
+        <h1>Awakening Journeys</h1>
       </div>
     </div>
 
