@@ -29,7 +29,6 @@ export default class EmailListForm extends Component {
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
-// contact form as per code given by netlify's form docs
   render() {
     const { email } = this.state;
     return (
