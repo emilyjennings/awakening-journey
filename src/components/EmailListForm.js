@@ -19,7 +19,7 @@ export default class EmailListForm extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "email-list", ...this.state })
+      body: encode({ "form-name": "emaillist", ...this.state })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
@@ -36,8 +36,8 @@ export default class EmailListForm extends Component {
       <div className="email-list-form">
         <div className="contactcontainer">
           <div className="formcaption">Join my email list! Newsletters coming soon.</div>
-          <form name="email-list" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="email-list" />
+          <form name="emaillist" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="emaillist" />
             <div className="input-row-1">
                 <label>
                   Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
