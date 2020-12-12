@@ -1,9 +1,9 @@
 :root {
   --main-color: #fffef2;
   --secondary-color: #000e0f;
-  --alt-color: #c78ad1;
+  --alt-color: #e084af;
   --bright-color: #149396;
-  --pink-color: #f3daf7;
+  --pink-color: #fabeda;
   --yellow-color: #facfac;
   --grey-color: #8d8499;
   --main-font: 'PT Serif', serif;
@@ -48,7 +48,8 @@ h3 {
 }
 
 .Body {
-  width: 100%
+  width: 100%;
+  margin-bottom: 100px
 }
 
 .landing-message {
@@ -89,11 +90,11 @@ h3 {
   display: block;
   text-align: center;
   font-size: 2em;
-  font-family: var(--sub-font)
+  font-family: var(--sub-font);
 }
 
-.link-box a {
-  color: var(--grey-color);
+.link-box a, .link-box a:visited {
+  color: var(--bright-color);
   text-decoration: underline;
 }
 
@@ -115,13 +116,6 @@ h3 {
   transform: translate(-50%, -50%);
   color: var(--main-color);
 }
-
-/* .stars-image img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  object-position: 20% 0%;
-} */
 
 .strip {
   position: fixed;
@@ -166,7 +160,7 @@ h3 {
   width: auto
 }
 
-a:hover, .nav-link a:hover, .social-links a:hover {
+a:hover, .nav-link a:hover, .social-links a:hover, .link-box a:hover, .About a:hover {
   color: var(--alt-color)
 }
 
@@ -255,6 +249,7 @@ textarea {
 }
 
 .About p {
+  display: block;
   text-align: left;
   width: 50%;
   margin: 22px auto;
@@ -265,12 +260,68 @@ textarea {
   font-size: 25px
 }
 
-.meditation p {
-  text-align: center;
+.home-message {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px
+}
+
+.space {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+p.update-note {
+  margin: 100px 20px;
+  font-size: 15px;
+}
+
+
+/* Email List form */
+
+.emailformcaption {
+  display: block;
+  margin-top: 100px
 }
 
 .email-list-form button#submit {
-  margin: 40px
+  margin: 25px
+}
+
+/* Meditation */
+
+.meditation-image img {
+  display: block;
+  object-position: center;
+  width: 80%;
+}
+
+/* .meditation p {
+  text-align: center;
+} */
+
+.meditation-box {
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px
+}
+
+.meditation-box p {
+  width: 80%;
+  margin: auto 10%;
+  object-position: center;
+}
+
+.meditation img {
+  width: 80%;
+  margin: auto 10%;
+  object-position: center;
 }
 
 /* Blog */
@@ -396,8 +447,17 @@ ul {
     display: none
   }
 
-  .landing-message, .meditation {
+  .landing-message, .meditation-box {
     display: block;
+    width: 100%
+  }
+
+  .mediation-box img {
+    display: block;
+    width: 100%
+  }
+
+  .update-note {
     width: 100%
   }
 
