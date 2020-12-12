@@ -1,5 +1,4 @@
 import meditation from '../images/meditation.JPG'
-import { Link } from "react-router-dom";
 
 function Meditation() {
   return (
