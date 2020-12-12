@@ -298,9 +298,10 @@ p.update-note {
   width: 80%;
 }
 
-/* .meditation p {
-  text-align: center;
-} */
+.meditation p {
+  padding-top: 10px;
+  font-size: 1.3em
+}
 
 .meditation-box {
   position: relative;
