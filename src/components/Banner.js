@@ -1,10 +1,9 @@
-import stars from '../images/stars.jpg'
+import stars from '../images/gradient.png'
 
 function Banner() {
   return (
     <div className="Banner">
-      <div className="stars-image">
-        <img src={stars} alt="" />
+      <div className="banner-box">
         <h1>Awakening Journeys</h1>
       </div>
     </div>
