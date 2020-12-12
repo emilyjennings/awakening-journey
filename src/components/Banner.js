@@ -1,4 +1,3 @@
-import stars from '../images/gradient.png'
 
 function Banner() {
   return (
