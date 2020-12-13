@@ -6,7 +6,7 @@ function NavLinks() {
       <div className="nav-link"><Link to="/">Home</Link></div>
       <div className="nav-link"><Link to="/about">About</Link></div>
       <div className="nav-link"><Link to="/contact">Contact</Link></div>
-      <div className="nav-link"><a href="https://awakening-journey.medium.com">Blog</a></div>
+      <div className="nav-link"><Link to="/blog">Blog</Link></div>
       <div className="nav-link"><Link to="/meditation">Meditation</Link></div>
     </div>
 
