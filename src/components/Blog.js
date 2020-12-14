@@ -42,12 +42,11 @@ class Blog extends React.Component {
                 <a href="${item.link}">
                   <img src="${item.thumbnail}" class="blog__topImg"></img>
                   <div class="blog__title">${shortenText(item.title, 0, 100)+ ''}</div>
+                  <p class="blog__intro">${shortenText(toText(item.content), 60, 800)}</p>
                 </a>
               </div>
               <div class="blog__info">
-                <p class="blog__intro">${shortenText(toText(item.content), 60, 800)}</p>
-                <p class="blog__intro">Category: ${toText(item.categories.slice(1, 2))}</p>
-                <div class="blog__date">Published: ${shortenText(item.pubDate, 0 ,10)}</div>
+                <p class="blog__category">Category: ${toText(item.categories.slice(1, 2))} | Published: ${shortenText(item.pubDate, 0 ,10)}</p>
               </div>
             </div>`
 

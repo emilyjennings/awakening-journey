@@ -299,7 +299,7 @@ p.update-note {
 }
 
 .meditation p {
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 1.3em
 }
 
@@ -346,14 +346,8 @@ p.update-note {
   font-family: var(--alt-font)
 }
 
-.blog {
-  width: 90%;
-  text-align: center;
-  margin: auto
-}
-
 .blog-post img {
-  width: 80%;
+  width: 70%;
   border: 3px solid var(--alt-color);
   border-radius: 5px;
   text-align: center;
@@ -364,16 +358,17 @@ p.update-note {
 }
 
 .blog-post {
-  display: inline-block;
+  display: block;
   position: relative;
   width: 100%;
-  float: left;
   text-align: center;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .blog__title {
   font-size: 1.5em;
+  width: 70%;
+  margin: auto;
 }
 
 .blog__info {
@@ -381,7 +376,15 @@ p.update-note {
   text-align: center;
   margin: auto;
   font-family: var(--alt-font);
-  color: var(--bright-color)
+  color: var(--bright-color);
+  font-size: 1.2em
+}
+
+.blog__intro {
+  font-size: 1.3em;
+  width: 65%;
+  margin: auto;
+  padding-top: 10px
 }
 
 .blog__content {
