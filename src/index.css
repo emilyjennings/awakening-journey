@@ -381,7 +381,7 @@ p.update-note {
 }
 
 .blog__intro {
-  font-size: 1.3em;
+  font-size: 1.25em;
   width: 65%;
   margin: auto;
   padding-top: 10px
@@ -438,6 +438,19 @@ p.update-note {
 
   .About p {
     width: 80%
+  }
+
+  .blog__content {
+    width: 100%
+  }
+
+  .blog__intro, .blog__title {
+    width: 80%
+  }
+
+  .blog__category, .blog__info {
+    width: 100%;
+    font-size: 1em
   }
 
 
