@@ -10,7 +10,7 @@ export default class EmailListForm extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { email: ""};
+    this.state = { email: "", firstname: ""};
   }
 
 
@@ -30,18 +30,22 @@ export default class EmailListForm extends Component {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { email } = this.state;
+    const { firstname, email } = this.state;
     return (
       <div className="email-list-form">
         <div className="contactcontainer">
-          <div className="emailformcaption">Subscribe to my newsletter for meditation tips and updates!</div>
+          <div className="emailformcaption">Subscribe to my newsletter for a free 4-step meditation guide!</div>
           <form name="emaillist" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="emaillist" />
             <div className="input-row-1">
                 <label>
-                  Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+                  First Name: <br></br> <input type="firstname" name="firstname" value={firstname} onChange={this.handleChange} />
                 </label>
-
+            </div>
+            <div className="input-row-1">
+                <label>
+                  Email: <br></br> <input type="email" name="email" value={email} onChange={this.handleChange} />
+                </label>
             </div>
 
               <button id="submit" type="submit">Send</button>

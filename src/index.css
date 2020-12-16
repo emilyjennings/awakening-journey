@@ -283,7 +283,8 @@ p.update-note {
 
 .emailformcaption {
   display: block;
-  margin-top: 50px
+  margin-top: 50px;
+  color: var(--bright-color)
 }
 
 .email-list-form button#submit {
@@ -315,6 +316,7 @@ p.update-note {
   width: 80%;
   margin: auto 10%;
   object-position: center;
+  color: var(--bright-color)
 }
 
 .meditation img {
