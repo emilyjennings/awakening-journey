@@ -18,7 +18,7 @@ function About() {
         </div>
       </FadeIn>
       <FadeIn>
-        <p>I'm Emily. I have journeyed into my soul and recieved the message that I am a healer. I was compelled to start this website and get to work to help others. It is my life's purpose.</p>
+        <p>I'm Emily. I have journeyed into my soul and received the message that I am a healer. I was compelled to start this website and get to work to help others. It is my life's purpose.</p>
         <p>This website is still a baby. I am in the process of training to be a wellness coach. If you subscribe to my newsletter, you will hear updates on my status. I'll be adding offerings, services, and opening myself for clients in 2021.</p>
         <p>I'd love to connect, because that's why I am here. Let me know what I can do for you.</p>
       </FadeIn>
