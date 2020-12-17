@@ -8,6 +8,7 @@ import About from './components/About.js'
 import Contact from './components/Contact.js'
 import Meditation from './components/Meditation.js'
 import Blog from './components/Blog.js'
+import Footer from './components/Footer.js'
 
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/meditation" component={Meditation} />
             <Route exact path="/blog" component={Blog} />
             < Strip />
+            < Footer />
         </div>
       </ Router >
   );
