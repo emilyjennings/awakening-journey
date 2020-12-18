@@ -1,5 +1,5 @@
 import '../style/Body.css';
-import lotus from '../images/lotus2.jpg'
+import lotus from '../images/flowerlogo.png'
 
 import EmailListForm from './EmailListForm.js'
 

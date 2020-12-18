@@ -1,6 +1,7 @@
 import FadeIn from 'react-fade-in';
 
 import temple from '../images/temple.jpg'
+import logo from '../images/LogoLight.png'
 import { Link } from "react-router-dom";
 
 import EmailListForm from './EmailListForm.js'
@@ -25,6 +26,7 @@ function About() {
       <FadeIn>
         < EmailListForm />
       </FadeIn>
+      <img src={logo} alt=""/>
     </div>
 
   );

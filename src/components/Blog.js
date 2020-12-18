@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logo from '../images/LogoLight.png'
+
 class Blog extends React.Component {
   constructor(props) {
     super(props);
@@ -60,6 +62,7 @@ class Blog extends React.Component {
           <h2>My Recent Posts from Medium</h2>
           <h3><a href="https://www.medium.com/@awakening-journey">(Click here to see all of my posts)</a></h3>
           <div className="blog__slider"></div>
+          <img src={logo} alt=""/>
         </div>
   }
 

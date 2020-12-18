@@ -1,4 +1,5 @@
 import meditation from '../images/meditation.JPG'
+import logo from '../images/LogoLight.png'
 
 import EmailListForm from './EmailListForm.js'
 
@@ -14,6 +15,7 @@ function Meditation() {
         <p>One is to find complete inner peace.</p>
         <p>The second is to journey into yourself to find out who the 'self' really is.</p>
         <p>Subscribe to my newsletter and get a free four-step meditation guide that will help you reach alignment between self and the world.</p>
+        <img src={logo} alt="logo"/>
       </div>
       <div className="space"></div>
       < EmailListForm />

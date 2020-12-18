@@ -351,6 +351,13 @@ p.update-note {
   font-size: 1.9em;
 }
 
+.Blog img {
+  text-align: center;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
 .Blog a {
   text-decoration: none;
 }
