@@ -290,6 +290,10 @@ textarea {
   font-family: var(--sub-font)
 }
 
+.footer-box a {
+  color: var(--alt-color);
+}
+
 
 /* Email List form */
 
@@ -313,6 +317,8 @@ textarea {
   display: block;
   object-position: center;
   width: 80%;
+  border: 2px solid var(--alt-color);
+  border-radius: 5px
 }
 
 .meditation p {
