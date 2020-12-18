@@ -137,6 +137,10 @@ h3 {
   margin-right: 10px
 }
 
+.social-links img {
+  height: 20px
+}
+
 .social-links a, .social-links a:visited {
   padding: 5px;
   text-align: center;

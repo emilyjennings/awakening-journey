@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import logo from '../images/LogoLight.png'
+
 const encode = (data) => {
   return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -61,7 +63,7 @@ export default class Contact extends Component {
           </form>
         </div>
 
-        <div className="space"></div>
+        <div className="space"><img src={logo} alt=""/></div>
       </div>
     );
   };
