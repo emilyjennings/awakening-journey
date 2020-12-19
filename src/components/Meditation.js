@@ -11,9 +11,8 @@ function Meditation() {
       </div>
       <div className="meditation-box">
         <p>Meditation is the key to unleashing your potential. It allows us to go beyond our limitations such as stress and fear, and see the beauty and purpose in reality.</p>
-        <p>There are two ways I teach meditation.</p>
-        <p>One is to find complete inner peace.</p>
-        <p>The second is to journey into yourself to find out who the 'self' really is.</p>
+        <p>I teach meditation by guiding the self to inner peace and oneness, ultimately finding out who the 'self' really is.</p>
+        <p>Anyone should be able to reach a higher state through meditation, which is why I am developing offerings and services to guide others there.</p>
         <p>Subscribe to my newsletter and get a free four-step meditation guide that will help you reach alignment between self and the world.</p>
         <img src={logo} alt="logo"/>
       </div>
