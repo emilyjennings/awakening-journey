@@ -13,7 +13,7 @@ function Body() {
           <p>Isn't it beautiful that life has brought you here?</p>
           <p>You've come to the right place if you are feeling the call to arrive at a higher version of yourself.</p>
           <p>This resource for your awakening is growing and expanding, just like we are. Sign up for my newsletter for updates!</p>
-          <p><a href="https://join.slack.com/t/waking-upworkspace/shared_invite/zt-izfp06jo-j0jDznPIrbUseT_RCyXn~Q">Join our slack community</a> to connect with others about awakening.</p>
+          <p><a href="https://join.slack.com/t/waking-upworkspace/shared_invite/zt-kc17udt1-4R6tHNHljVMX9qxKc8OiYg">Join our slack community</a> to connect with others about awakening.</p>
         </div>
         <div className="landing-message">
           <div className="lotus-img">
