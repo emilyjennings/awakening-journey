@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo from '../images/LightLogo.png'
+import feminine from '../images/feminine.jpg'
 
 class Blog extends React.Component {
   constructor(props) {
@@ -62,6 +63,18 @@ class Blog extends React.Component {
           <h2>My Recent Posts from Medium</h2>
           <h3><a href="https://www.medium.com/@awakening-journey">(Click here to see all of my posts)</a></h3>
           <div className="blog__slider"></div>
+          <div class="blog-post">
+            <div class="blog__content">
+             <a href="https://medium.com/mystic-minds/get-excited-for-a-new-era-of-feminine-energy-1ff89aa93c70">
+               <img src={feminine} alt="" class="blog__topImg"></img>
+               <div class="blog__title">Get Excited for a New Era of Feminine Energy</div>
+               <p class="blog__intro">The balance of male and female is tipping and the matriarchy is coming.</p>
+             </a>
+             </div>
+            <div class="blog__info">
+              <p class="blog__category">Category: Spirituality | Published: 2020-12-21</p>
+             </div>
+           </div>
           <img src={logo} alt=""/>
         </div>
   }
