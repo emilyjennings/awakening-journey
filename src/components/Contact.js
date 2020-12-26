@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from '../images/LogoLight.png'
+import logo from '../images/LightLogo.png'
 
 const encode = (data) => {
   return Object.keys(data)

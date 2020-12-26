@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../images/LogoLight.png'
+import logo from '../images/LightLogo.png'
 
 class Blog extends React.Component {
   constructor(props) {

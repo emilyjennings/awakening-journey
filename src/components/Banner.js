@@ -3,7 +3,7 @@ function Banner() {
   return (
     <div className="Banner">
       <div className="banner-box">
-        <h1>Awakening Journey</h1>
+        <h1>Shakti Mindful Awakening</h1>
       </div>
     </div>
 

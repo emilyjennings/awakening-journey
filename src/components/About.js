@@ -1,7 +1,7 @@
 import FadeIn from 'react-fade-in';
 
 import profile from '../images/crown.jpg'
-import logo from '../images/LogoLight.png'
+import logo from '../images/LightLogo.png'
 import { Link } from "react-router-dom";
 
 import EmailListForm from './EmailListForm.js'
