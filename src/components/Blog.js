@@ -2,6 +2,7 @@ import React from 'react';
 
 import logo from '../images/LightLogo.png'
 import feminine from '../images/feminine.jpg'
+import enlighten from '../images/enlighten.jpg'
 
 class Blog extends React.Component {
   constructor(props) {
@@ -73,6 +74,17 @@ class Blog extends React.Component {
              </div>
             <div class="blog__info">
               <p class="blog__category">Category: Spirituality | Published: 2020-12-21</p>
+             </div>
+           </div>
+            <div class="blog__content">
+             <a href="https://medium.com/illumination/why-your-enlightenment-matters-now-more-than-ever-542496a95a3e?sk=09a9714c647695315a19adb6981830f0">
+               <img src={enlighten} alt="" class="blog__topImg"></img>
+               <div class="blog__title">Why Your Enlightenment Matters Now More Than Ever</div>
+               <p class="blog__intro">This lifetime is available for you to ascend, so why wouldn’t you?</p>
+             </a>
+             </div>
+            <div class="blog__info">
+              <p class="blog__category">Category: Spirituality | Published: 2020-12-9</p>
              </div>
            </div>
           <img src={logo} alt=""/>
