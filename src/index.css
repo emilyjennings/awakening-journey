@@ -431,6 +431,10 @@ p.update-note {
   margin: auto;
 }
 
+p.new {
+  color: var(--alt-color)
+}
+
 
 @media only screen and (max-width: 800px) {
   .profile img {
